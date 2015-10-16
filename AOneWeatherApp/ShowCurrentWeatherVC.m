@@ -29,6 +29,8 @@
     }
     else
     {
+        // Fetching weather data from UserDefaults.
+        
         currentWeatherResponseDict = [userDefaults objectForKey:@"stored_cur_weather_response"];
         
         weatherHourForecastArr = [userDefaults objectForKey:@"weather_forecast_arr"];
