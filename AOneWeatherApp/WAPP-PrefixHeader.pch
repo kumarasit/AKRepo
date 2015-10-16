@@ -1,0 +1,23 @@
+//
+//  WAPP-PrefixHeader.pch
+//  AOneWeatherApp
+//
+//  Created by Asit Kumar Mohanty on 16/10/15.
+//  Copyright © 2015 Asit Kumar Mohanty. All rights reserved.
+//
+
+#ifndef WAPP_PrefixHeader_pch
+#define WAPP_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+// Debug related macros
+#define DEBUG_LOGS
+#ifdef DEBUG_LOGS
+#define DEBUG_LOG(x) x
+#else
+#define DEBUG_LOG(x)
+#endif
+
+#endif /* WAPP_PrefixHeader_pch */
